@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/patients
+Content-Type: application/json
+
+{
+  "name": "Aaro Riggs",
+  "dateOfBirth": "2222-01-30",
+  "ssn": "234234",
+  "gender": "alien",
+  "occupation": "Student"
+}
